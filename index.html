@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Tutorial</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div>
+        <h1 class="group1" id="unique">
+            Welcome to this page
+        </h1>
+
+        <h2 class="group1">
+            Some subheading
+        </h2>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore fugit quas nisi soluta culpa quaerat
+            iste odit optio, fugiat, a debitis eveniet ea animi? Vel ex suscipit ut ipsam.
+        </p>
+    </div>
+
+
+    <section>
+        <h1 class="group1">
+            Welcome to this page
+        </h1>
+
+        <h2 class="group1">
+            Some subheading
+        </h2>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore fugit quas nisi soluta culpa quaerat
+            iste odit optio, fugiat, a debitis eveniet ea animi? Vel ex suscipit ut ipsam.
+        </p>
+    </section>
+
+    <a href="https://google.com">Go to Google</a>
+    <a href="https://google.com" target="_blank" rel="noopener noreferrer">Google in New tab</a>
+    <a href="mailto:support@example.com">support@example.com</a>
+    <a href="tel:+44111111111">+44111111111</a>
+
+    <form action="/" method="POST" class="flex flex-col p-20 gap-4">
+        <div class="grid grid-cols-1 gap-2">
+            <label for="full_name">Full Name</label>
+            <input class="border border-purple-500 p-2" type="text" name="full_name" placeholder="Firstname lastname" />
+        </div>
+
+        <div class="grid grid-cols-1 gap-2">
+            <label for="email">Email</label>
+            <input class="border border-purple-500 p-2 md:p-10" type="email" name="email" placeholder="Business email" />
+        </div>
+
+        <div class="grid grid-cols-1 gap-2">
+            <label for="message">Message</label>
+            <textarea class="border border-purple-500 p-2" name="message" rows="5" cols="10"
+                aria-placeholder="Message here...">
+            </textarea>
+        </div>
+
+        <div class="text-center">
+            <button class="bg-blue-600 text-white px-5 py-2 rounded" type="submit">
+                Send Message
+            </button>
+        </div>
+    </form>
+
+</body>
+
+</html>
