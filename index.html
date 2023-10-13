@@ -12,26 +12,13 @@
 </head>
 
 <body>
-    <div>
-        <h1 class="group1" id="unique">
+
+    <!-- <section>
+        <h1 id="main-title" class="group1">
             Welcome to this page
         </h1>
 
-        <h2 class="group1">
-            Some subheading
-        </h2>
-
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore fugit quas nisi soluta culpa quaerat
-            iste odit optio, fugiat, a debitis eveniet ea animi? Vel ex suscipit ut ipsam.
-        </p>
-    </div>
-
-
-    <section>
-        <h1 class="group1">
-            Welcome to this page
-        </h1>
+        <button id="btn">Change Text</button>
 
         <h2 class="group1">
             Some subheading
@@ -48,7 +35,7 @@
     <a href="mailto:support@example.com">support@example.com</a>
     <a href="tel:+44111111111">+44111111111</a>
 
-    <form action="/" method="POST" class="flex flex-col p-20 gap-4">
+    <form action="/" method="POST" id="contact-form" class="flex flex-col p-20 gap-4">
         <div class="grid grid-cols-1 gap-2">
             <label for="full_name">Full Name</label>
             <input class="border border-purple-500 p-2" type="text" name="full_name" placeholder="Firstname lastname" />
@@ -73,6 +60,25 @@
         </div>
     </form>
 
+    <button id="new-ele">Create New Element</button> -->
+
+    <form class="flex flex-col p-20 gap-4">
+        <div class="grid grid-cols-1 gap-2">
+            <label for="full_name">To do item</label>
+            <input class="border border-purple-500 p-2" type="text" name="todo" placeholder="Enter todo text" />
+        </div>
+
+        <div class="text-center">
+            <button class="bg-blue-600 text-white px-5 py-2 rounded" type="submit">
+                Add to list
+            </button>
+        </div>
+    </form>
+
+    <ul id="list-items">
+
+    </ul>
+    <script src="./script.js"></script>
 </body>
 
 </html>
